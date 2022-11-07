@@ -11,7 +11,6 @@ function ToDoList() {
     const [displayAll, setDisplayAll] = React.useState(true);
     const [sortOrder, setSortOrder] = React.useState(true);
     const [taskEditText, setTaskEditText] = React.useState('');
-    //const [taskDate,setTaskDate] = React.useState(new Date());
 
     React.useEffect(() => {
         console.log("tasks", localStorage.getItem("AllTasks"))
