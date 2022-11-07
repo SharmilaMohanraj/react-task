@@ -14,7 +14,6 @@ function ToDoList() {
     //const [taskDate,setTaskDate] = React.useState(new Date());
 
     React.useEffect(() => {
-        // setDisplayAll(true);
         console.log("tasks", localStorage.getItem("AllTasks"))
         if (localStorage.getItem("AllTasks")) {
             setTasks(JSON.parse(localStorage.getItem("AllTasks")));
