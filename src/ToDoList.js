@@ -1,7 +1,6 @@
 import React from "react";
 import "./ToDoList.css";
 import TaskBox from "./TaskBox";
-//import  {CalendarComponent} from "@syncfusion/ej2-react-calendars";
 
 function ToDoList() {
     const [inputValue, setInputValue] = React.useState('');
