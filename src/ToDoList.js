@@ -70,7 +70,6 @@ function ToDoList() {
         updatedTasks.forEach((task) => {
             if (task.id === taskId) {
                 task.completed = !task.completed;
-                //setCompletedTasks([...completedTasks, task]);
             }
         })
         setTasks([...updatedTasks]);
